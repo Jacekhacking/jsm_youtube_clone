@@ -6,7 +6,7 @@ const options = {
   method: "GET",
   url: BASE_URL,
   params: {
-    maxResults: "50",
+    maxResults: "10",
   },
   headers: {
     "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
@@ -17,6 +17,7 @@ const options = {
 //    /baseURL/getVideos
 
 export const fetchFromAPI = async (url) => {
+  //   console.log(process.env.REACT_APP_RAPID_API_KEY);
   const { data } = await axios
     .get(`${BASE_URL}/${url}`, options)
     .catch((error) => {

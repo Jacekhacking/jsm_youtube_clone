@@ -1,5 +1,4 @@
 import { Stack } from "@mui/system";
-
 import { categories } from "../utils/constants";
 
 const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
