@@ -4,6 +4,8 @@ App was build with ReactJs, MUI, React Router, and the RapidAPI.
 
 [Youtube Video](https://www.youtube.com/watch?v=dyFVwXROzZk)
 
+[Live Site](https://glittering-scone-de1925.netlify.app)
+
 ## Learning Objectives
 
 The learning objectives for the building of the app were.
